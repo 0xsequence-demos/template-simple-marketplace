@@ -285,7 +285,7 @@ function App() {
     setAcceptData(data)
 
     const tx = {
-      to: MarketPlaceContract, // The contract address of the ERC-20 token, replace with actual contract address
+      to: MarketPlaceContract, // The contract address of orderbook
       data: data
     };
 
